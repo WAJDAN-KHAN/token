@@ -7,7 +7,7 @@ import { Analytics } from './Analytics';
 import { Contract } from './Contract';
 
 export const TabsSection = () => {
-  const [activeTab, setActiveTab] = useState('Transactions');
+  const [activeTab, setActiveTab] = useState('Transfers');
 
   const renderContent = () => {
     switch (activeTab) {
